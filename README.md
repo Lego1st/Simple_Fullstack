@@ -2,6 +2,9 @@
 __Seminar's demo__  
 *An example for web development, giving an overview of fullstack*
 
+## Application
+Einstein ask your name and age and he will tell you when you was born !
+
 ## Techonogies
 
 __Front-end__
