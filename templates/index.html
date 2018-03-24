@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Fullstack</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/mystyle.css') }}">
+        <script type="text/javascript" src="{{ url_for('static', filename='js/app.js') }}"></script>
+    </head>
+    <body>
+        <div class="foo"> 
+            <span class="letter" data-letter="Demo"> Demo </span>
+        </div>
+        <div class = "container-fluid from-container">
+            <div class"form-group">
+                <form id="myform" method="POST">
+                    <div class="row">
+                        <span class="col-xs-6">
+                            Name: <input class="form-control" type="text" name="name"><br>
+                        </span>
+                        <span class="col-xs-6">
+                            Age: <input class="form-control" type="number" name="age" min="18" max="60"><br>
+                        </span>
+                    </div>
+                    <input class="btn btn-default" type="submit">
+                </form>
+            </div>
+            <br><br>
+            <div class="row">
+                <div class="col-xs-5">
+                    <img src="/static/img/ein.png" width="100%">
+                </div>
+                <div class="col-xs-7" id="namelist"></div>
+            </div>
+        </div>
+    </body>
+</html>
