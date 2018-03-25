@@ -18,4 +18,10 @@ __Back-end__
 __Other__
 - Ngrok
 
+## How to run
 
+Import and configure SQL in db.py
+
+```python 
+python app.py 
+````
